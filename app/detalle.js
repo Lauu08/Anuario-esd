@@ -8,7 +8,7 @@ window.onload = () => {
     let param = obtenerParam(document.URL);
     console.log(param);
 
-    fetch("/assets/data/data.json")
+    fetch("../assets/data/data.json")
     
         .then((res) => res.json())
         .then((data) => {

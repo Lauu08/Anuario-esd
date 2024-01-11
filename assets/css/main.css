@@ -349,6 +349,81 @@ p {
   margin: 0;
 }
 
+/* Definición predeterminada */
+body {
+  line-height: 1.6;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+body main {
+  font-family: "Inria Sans", sans-serif;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+body main h1 {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: bold;
+}
+body main h2 {
+  font-family: "Inria Sans", sans-serif;
+  margin-left: 38px;
+}
+body main ul.usuarios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 0;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+body main ul.usuarios li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid #bababa;
+  padding: 10px;
+  cursor: pointer;
+}
+body main ul.usuarios li.user {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #bababa;
+  padding: 10px;
+  padding-left: 50px;
+}
+body main ul.usuarios li:hover {
+  background-color: #cdcdcd;
+}
+body main ul.usuarios li .img img {
+  background-color: white;
+  border: 1px solid #bababa;
+  border-radius: 50px;
+  width: 300px;
+  height: 300px;
+}
+body main ul.usuarios li .datos {
+  margin-top: 10px;
+  font-weight: bold;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+body main ul.usuarios li .nombre {
+  font-weight: bold;
+}
+body main ul.usuarios li .titulo {
+  font-style: italic;
+}
+body main .contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}/*# sourceMappingURL=main.css.map */
+
 header {
   position: fixed;
   top: 0;
@@ -941,77 +1016,3 @@ footer .titulo2 img {
     font-weight: bold;
   }
 }
-/* Definición predeterminada */
-body {
-  line-height: 1.6;
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
-}
-body main {
-  font-family: "Inria Sans", sans-serif;
-  margin-top: 75px;
-  margin-bottom: 50px;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-body main h1 {
-  font-family: "Inria Sans", sans-serif;
-  font-weight: bold;
-}
-body main h2 {
-  font-family: "Inria Sans", sans-serif;
-  margin-left: 38px;
-}
-body main ul.usuarios {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-  padding: 0;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-}
-body main ul.usuarios li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  border-bottom: 1px solid #bababa;
-  padding: 10px;
-  cursor: pointer;
-}
-body main ul.usuarios li.user {
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #bababa;
-  padding: 10px;
-  padding-left: 50px;
-}
-body main ul.usuarios li:hover {
-  background-color: #cdcdcd;
-}
-body main ul.usuarios li .img img {
-  background-color: white;
-  border: 1px solid #bababa;
-  border-radius: 50px;
-  width: 300px;
-  height: 300px;
-}
-body main ul.usuarios li .datos {
-  margin-top: 10px;
-  font-weight: bold;
-  flex-direction: column;
-  align-items: center;
-  font-weight: bold;
-}
-body main ul.usuarios li .nombre {
-  font-weight: bold;
-}
-body main ul.usuarios li .titulo {
-  font-style: italic;
-}
-body main .contenedor {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}/*# sourceMappingURL=main.css.map */

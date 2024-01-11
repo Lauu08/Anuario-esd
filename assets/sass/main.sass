@@ -1,0 +1,92 @@
+@import "lib/vars"
+@import "lib/reboot"
+@import "lib/type"
+
+@import 'header'
+@import 'footer'
+@import 'plantilla_uno'
+@import 'plantilla_dos'
+@import 'plantilla_default_par'
+@import 'plantilla_default_impar'
+@import 'media'
+@import 'media_plantilla_uno'
+@import 'media_plantilla_dos'
+@import 'media_plantilla_default_par'
+@import 'media_plantilla_default_impar'
+
+/* Definición predeterminada */
+body
+  line-height: 1.6 
+  font-size: 16px
+  margin: 0
+  padding: 0
+    
+  main 
+    font-family: 'Inria Sans', sans-serif
+    margin-top: 75px
+    margin-bottom: 50px
+    padding: 20px
+    margin-bottom: 20px
+
+    h1 
+      font-family: 'Inria Sans', sans-serif
+      font-weight: bold
+
+    h2 
+      font-family: 'Inria Sans', sans-serif
+      margin-left: 38px
+        
+    ul.usuarios 
+      display: grid
+      grid-template-columns: repeat(3, 1fr) 
+      grid-gap: 20px 
+      padding: 0
+      margin-bottom: 20px
+      padding-bottom: 20px
+        
+      li 
+        display: flex
+        flex-direction: column 
+        align-items: center 
+        text-align: center 
+        border-bottom: 1px solid #bababa
+        padding: 10px
+        cursor: pointer
+
+        &.user 
+          display: flex
+          align-items: center
+          border-bottom: 1px solid #bababa
+          padding: 10px
+          padding-left: 50px
+
+        &:hover 
+          background-color: #cdcdcd
+
+        .img img 
+          background-color: white
+          border: 1px solid #bababa
+          border-radius: 50px
+          width: 300px
+          height: 300px
+
+        .datos 
+          margin-top: 10px 
+          font-weight: bold 
+          flex-direction: column 
+          align-items: center 
+          font-weight: bold
+
+        .nombre 
+          font-weight: bold
+
+        .titulo 
+          font-style: italic
+
+    .contenedor
+      display: grid
+      grid-template-columns: 1fr 1fr 
+      gap: 20px
+
+
+

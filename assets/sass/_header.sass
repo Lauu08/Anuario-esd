@@ -1,0 +1,51 @@
+header
+  position: fixed
+  top: 0
+  width: 100%
+  display: flex
+  align-items: center
+  justify-content: space-between
+  background-color: #ccc
+  height: 75px
+  padding: 0 20px
+  z-index: 1000
+
+  .logo img
+    height: 100%
+    max-height: 100%
+    margin-right: 20px
+
+  .enlaces img
+    height: 70%
+    max-height: 100%
+    margin-left: 10px
+
+/* MOVILES */ 
+/* SAMSUNG GALAXY S20 ULTRA */ 
+@media screen and (max-width: 412px) and (max-height: 915px) 
+    header 
+      height: 50px
+      padding: 0 10px
+      display: auto
+
+      .logo img 
+        margin-right: 5px
+    
+      .enlaces img 
+        margin-left: 2px
+
+/* TABLETS */ 
+/* iPad Mini */
+@media screen and (min-width: 768px) and (max-width: 1024px)
+    header 
+      height: 50px
+      padding: 0 10px
+      display: auto
+
+      .logo img 
+        margin-right: 5px
+    
+      .enlaces img 
+        margin-left: 2px
+ 
+

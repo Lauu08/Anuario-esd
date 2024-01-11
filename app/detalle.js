@@ -9,7 +9,7 @@ window.onload = () => {
     console.log(param);
 
     fetch("../assets/data/data.json")
-    
+         console.log(;D);
         .then((res) => res.json())
         .then((data) => {
             let user = data.usuarios.find((item) => String(item.Id) === param); // Buscar el usuario por ID

@@ -105,7 +105,7 @@ window.onload = () => {
                             </div>
                             
                             <div class="imagen_default1">
-                              <img src="${user.Imgs}" />
+                              <img src="${user.ImgsDetalleDefault}" />
                             </div>  
                             
                             <div class="texto_detalles_default_1">
@@ -125,7 +125,7 @@ window.onload = () => {
                        detalleUsuario = `
                           <div class="seccion_default2">
                              <div class="imagen_default2">
-                                 <img src="${user.Imgs}" />
+                                 <img src="${user.ImgsDetalleDefault}" />
                              </div>  
                              <div class="seccion_default2">
                                 <div class="texto_detalles_default_2">

@@ -720,7 +720,6 @@ footer .titulo2 img {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   /*BODY*/ 
   body {
-    margin: 20px;
     padding: 0;
     font-family: "Inria Sans", sans-serif;
   }

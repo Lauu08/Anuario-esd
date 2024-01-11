@@ -10,7 +10,7 @@ window.onload = () => {
         );
     };
 
-    fetch("..assets/data/data.json")
+    fetch("../assets/data/data.json")
         .then((res) => res.json())
         .then((data) => {
             datos = data;

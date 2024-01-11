@@ -18,7 +18,6 @@ window.onload = () => {
             if (user) {
                 let detalleUsuario;
 
-
                 switch (user.Id) {
                     case 1:
                          detalleUsuario = `

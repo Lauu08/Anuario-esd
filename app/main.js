@@ -10,7 +10,7 @@ window.onload = () => {
         );
     };
 
-    fetch("Anuario-esd/assets/data/data.json")
+    fetch("../Anuario-esd/assets/data/data.json")
         .then((res) => res.json())
         .then((data) => {
             datos = data;

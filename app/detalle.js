@@ -27,7 +27,7 @@ window.onload = () => {
                           <div class="seccion">
                             <div class="foto-keken-vertical">
                               <!-- KEKEN_04 -->
-                              <img src="../assets/resources/img/keken/KEKEN_04.jpg"></img>
+                              <img src="${user.ImgsDetalle2}" />
                             </div>
                             <div class="datos_detalles">
                               <p class="extra"><strong style="font-size: 20px;">${user.Nombre_estudiante}</strong></p>
@@ -48,7 +48,7 @@ window.onload = () => {
                             </div>
                             <div class="foto-keken-horizontal">
                               <!-- KEKEN_01 -->
-                              <img src="../assets/resources/img/keken/KEKEN_01.jpg"></img>
+                              <img src="${user.ImgsDetalle1}" />
                             </div>
                           </div>
 

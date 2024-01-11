@@ -5,7 +5,7 @@ window.onload = () => {
         // let detalle = datos[e.currentTarget.id]
         // console.log(detalle)
         window.open(
-            `/pages/detalles.html?id=${e.currentTarget.id}`,
+            `pages/detalles.html?id=${e.currentTarget.id}`,
             "_self"
         );
     };

@@ -1,9 +1,9 @@
 {
     "recursos": [
         {
-            "nombre": "Anuario 2020/2021",
+            "nombre": "Anuario 2021/2022",
             "tipo": "pdf",
-            "ruta": "assets/resources/pdf/anuario-20-21-esd.pdf"
+            "ruta": "assets/resources/pdf/anuario-21-20-esd.pdf"
         }
     ],
     "usuarios": [

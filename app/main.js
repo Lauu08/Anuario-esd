@@ -20,16 +20,17 @@ window.onload = () => {
                 listItem.classList.add("user");
                 listItem.setAttribute("id", user.Id);
 
+                let arrayImgs = user.Imgs.split(',')[0]; 
+
                 let itemContent = `
-                
+                <div class="obra-tarjeta">
                     <div class="img">
-                      <img src=${user.Imgs} />
+                      <img src=${arrayImgs} />
                     </div>
                     <div class="datos">
                       <div class="nombre">${user.Nombre_estudiante}</div>
-                      <div class="titulo">${user.Titulo}</div>
-                    </div>
-                
+                      <div class="titulo">${user.Titulo}</div>         
+                </div
             `;
                 listItem.innerHTML = itemContent;
                 lista.appendChild(listItem);
